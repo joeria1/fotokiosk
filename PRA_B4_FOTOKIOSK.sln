@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRA_B4_FOTOKIOSK", "PRA_B4_FOTOKIOSK\PRA_B4_FOTOKIOSK.csproj", "{81F68F46-83FC-4FDA-8F1D-FEB9C1498DF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81F68F46-83FC-4FDA-8F1D-FEB9C1498DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81F68F46-83FC-4FDA-8F1D-FEB9C1498DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81F68F46-83FC-4FDA-8F1D-FEB9C1498DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81F68F46-83FC-4FDA-8F1D-FEB9C1498DF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {019910BE-32CD-4A4B-801B-B2D87A0A84EF}
+	EndGlobalSection
+EndGlobal
