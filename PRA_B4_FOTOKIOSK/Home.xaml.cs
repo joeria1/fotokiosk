@@ -36,6 +36,13 @@ namespace PRA_B4_FOTOKIOSK
             // Stel de manager in
             PictureManager.Instance = this;
             ShopManager.Instance = this;
+
+            // voeg producten toe 
+            ShopManager.Products.Add(new KioskProduct("Pasfoto", 5.00, "4 officiële pasfoto's"));
+            ShopManager.Products.Add(new KioskProduct("Canvas Afdruk", 12.50, "Foto op canvas, formaat A4"));
+            ShopManager.Products.Add(new KioskProduct("Foto Afdruk", 1.00, "10x15cm fotoprint"));
+
+
             ShopController.Window = this;
             PictureController.Window = this;
             SearchController.Window = this;

@@ -15,7 +15,19 @@ namespace PRA_B4_FOTOKIOSK.magie
     {
 
         public static List<KioskProduct> Products = new List<KioskProduct>();    
+
         public static Home Instance { get; set; }
+
+        public static void ShowProductPriceList()
+        {
+            SetShopPriceList(""); // Eerst leegmaken
+
+            foreach (KioskProduct product in Products)
+            {
+                string line = $"{product.Name} - €{product.Price:F2} - {product.Description}\n";
+                AddShopPriceList(line);
+            }
+        }
 
         public static void SetShopPriceList(string text)
         {
